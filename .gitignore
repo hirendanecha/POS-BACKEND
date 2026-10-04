@@ -13,4 +13,3 @@ uploads/
 # System files
 .DS_Store
 *.log
-config.bat
