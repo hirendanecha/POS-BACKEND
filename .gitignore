@@ -13,3 +13,4 @@ uploads/
 # System files
 .DS_Store
 *.log
+.env
