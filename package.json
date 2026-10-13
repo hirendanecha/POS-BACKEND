@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node api.js && node server.js",
     "dev": "node api.js && node --watch server.js",
-    "build": "npx prisma generate",
+    "build": "node api.js && npx prisma generate",
     "postinstall": "npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
